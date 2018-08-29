@@ -1,0 +1,9 @@
+section span {
+  font-weight: bold; }
+
+.leukemia-section {
+  display: flex;
+  align-items: center; }
+  .leukemia-section img {
+    height: 20px;
+    padding-right: 5px; }

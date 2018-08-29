@@ -1,0 +1,26 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  border-top: .5rem solid #ff44bd;
+  font-size: 1.4rem; }
+
+h1 {
+  font-size: 2.4rem; }
+
+header {
+  background-color: #f3f3f3; }
+
+.header__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 120rem; }
+
+.logo__wrapper {
+  display: flex; }
+  .logo__wrapper .nav__header-name {
+    padding: 0 1rem; }
+  .logo__wrapper .nav__header-title {
+    font-weight: lighter; }

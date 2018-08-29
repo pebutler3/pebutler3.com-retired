@@ -1,0 +1,11 @@
+.info-box__wrapper {
+  display: flex; }
+
+.info-box {
+  border: .1rem solid #000000;
+  box-shadow: 1rem 1rem 0rem #ff45bd;
+  flex: 1;
+  margin: 2rem;
+  padding: 2rem; }
+  .info-box h2 {
+    margin: 0; }

@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  border-top: .5rem solid #ff44bd;
+  font-size: 1.4rem; }
+
+h1 {
+  font-size: 2.4rem; }
+
+.nav__list {
+  display: flex;
+  height: 6rem;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .nav__list a, .nav__list button {
+    align-items: center;
+    background-color: #483d8b;
+    color: #f3f3f3;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.4rem;
+    height: 100%;
+    justify-content: center;
+    letter-spacing: .25rem;
+    margin: 0 0.5rem;
+    padding: 0 4rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .nav__list button {
+    border: none; }

@@ -1,0 +1,26 @@
+@import '../../app.scss';
+
+header {
+  background-color: $grey;
+}
+
+.header__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.logo__wrapper {
+  display: flex;
+
+  .nav__header-name {
+    padding: 0 1rem;
+  }
+
+  .nav__header-title {
+    font-weight: lighter;
+  }
+
+}
