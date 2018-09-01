@@ -1,5 +1,6 @@
 $darkSlateBlue: #483d8b;
 $grey: #f3f3f3;
+$pink: #ff44bd;
 
 $white: #fff;
 $black: #000;
@@ -9,10 +10,25 @@ html {
 }
 
 body {
-    border-top: .5rem solid #ff44bd;
+    border-top: .5rem solid $pink;
     font-size: 1.4rem;
 }
 
 h1 {
     font-size: 2.4rem;
+}
+
+@mixin breakpoint($point) {
+    @if $point == small {
+      @media (min-width: 48em) { @content; }
+    }
+    @if $point == medium {
+        @media (min-width: 62em)  { @content; }
+    }
+    @else if $point == large {
+        @media (min-width: 75em) { @content; }
+    }
+    @else if $point { // allows custom breakpoints
+        @media (min-width: $point) { @content; }
+    }
 }

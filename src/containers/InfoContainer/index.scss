@@ -1,13 +1,30 @@
+@import '../../app.scss';
+
 .info-box__wrapper {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @include breakpoint(small) {
+    flex-direction: row;
+  }
 }
 
 .info-box {
-  border: .1rem solid #000000;
-  box-shadow: 1rem 1rem 0rem #ff45bd;
   flex: 1;
-  margin: 2rem;
-  padding: 2rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid $grey;
+
+  @include breakpoint(medium) {
+    border: .1rem solid $black;
+    box-shadow: 1rem 1rem 0rem $pink;
+    margin: 2rem;
+    padding: 2rem;
+
+    &:last-child {
+      margin-left: 2rem;
+    }
+  }
 
   h2 {
     margin: 0;

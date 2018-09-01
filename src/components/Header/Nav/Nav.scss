@@ -14,14 +14,18 @@
     cursor: pointer;
     display: flex;
     font-size: 1.4rem;
-    height: 100%;
     justify-content: center;
+    height: 4rem;
     letter-spacing: .25rem;
     margin: 0 0.5rem;
     padding: 0 4rem;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
+
+    @include breakpoint(medium) {
+      height: 100%;
+    }
   }
 
   button {

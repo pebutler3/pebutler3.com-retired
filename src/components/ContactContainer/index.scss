@@ -1,0 +1,45 @@
+@import '../../app.scss';
+
+.contact-container {
+  background-color: $pink;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ec3dae' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  box-shadow: 2px 1px 5px #757575;
+  display: flex;
+  height: 0;
+  position: relative;
+  opacity: 0;
+  top: 0;
+  transition: all 250ms linear;
+  width: 100%;
+  z-index: 999;
+
+  @include breakpoint(medium) {
+    height: 100%;
+    width: 20rem;
+    position: absolute;
+    left: -5000px;
+  }
+
+  &__list {
+    line-height: 25px;
+    list-style: none;
+    padding: 0 2rem;
+
+    a {
+      color: $white;
+      letter-spacing: .25rem;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  &--visible {
+    left: 0;
+    opacity: 1;
+    height: 10rem;
+
+    @include breakpoint(medium) {
+      height: 100%;
+    }
+  }
+}

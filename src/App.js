@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header/Header.js';
 import Main from './components/Main/Main.js';
-import ContactContainer from './containers/ContactContainer/index.js';
+import ContactContainer from './components/ContactContainer/index.js';
 
 class App extends Component {
   render() {

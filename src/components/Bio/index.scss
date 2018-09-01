@@ -1,3 +1,11 @@
+.info-box--bio {
+  position: relative;
+
+  h2, p {
+    width: 50%;
+  }
+}
+
 section {
 
   span {
@@ -8,9 +16,25 @@ section {
 .leukemia-section {
   display: flex;
   align-items: center;
+  width: 50%;
 
   img {
-    height: 20px;
+    height: 2rem;
     padding-right: 5px;
+  }
+}
+
+.avatar {
+
+  &__wrapper {
+
+   .avatar {
+      border-radius: 100%;
+      height: 15rem;
+      padding: 2rem 0;
+      position: absolute;
+      right: 2rem;
+      top: 4rem;
+    }
   }
 }

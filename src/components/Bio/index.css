@@ -1,9 +1,23 @@
+.info-box--bio {
+  position: relative; }
+  .info-box--bio h2, .info-box--bio p {
+    width: 50%; }
+
 section span {
   font-weight: bold; }
 
 .leukemia-section {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  width: 50%; }
   .leukemia-section img {
-    height: 20px;
+    height: 2rem;
     padding-right: 5px; }
+
+.avatar__wrapper .avatar {
+  border-radius: 100%;
+  height: 15rem;
+  padding: 2rem 0;
+  position: absolute;
+  right: 2rem;
+  top: 4rem; }

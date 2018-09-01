@@ -7,13 +7,23 @@ header {
 .header__wrapper {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 120rem;
+
+  @include breakpoint(medium) {
+    flex-direction: row;
+  }
 }
 
 .logo__wrapper {
-  display: flex;
+  line-height: 1;
+  text-align: center;
+
+  @include breakpoint(medium) {
+    display: flex;
+  }
 
   .nav__header-name {
     padding: 0 1rem;
@@ -21,6 +31,23 @@ header {
 
   .nav__header-title {
     font-weight: lighter;
+  }
+
+  img {
+    position: relative;
+    top: .5rem;
+
+    @include breakpoint(medium) {
+      top: 0;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+
+    @include breakpoint(small) {
+      font-size: 2.4rem;
+    }
   }
 
 }
