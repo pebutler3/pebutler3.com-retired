@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Nav.css';
-import Resume from '../Resume/current.pdf';
+import resume from './current.pdf';
 
 
 const toggleContactContainer = () => {
@@ -15,7 +15,7 @@ const Nav = ({...props}) => {
     <nav>
       <ul className="nav__list">
         <li>
-          <a href={Resume}>Résumé</a>
+          <a href={resume}>Résumé</a>
         </li>
         <li>
           <button onClick={toggleContactContainer}>Contact</button>
