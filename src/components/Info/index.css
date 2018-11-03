@@ -1,0 +1,25 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  border-top: 0.5rem solid #ff44bd;
+  font-size: 1.4rem; }
+
+h1 {
+  font-size: 2.4rem; }
+
+.tools-list {
+  list-style: none;
+  padding: 0; }
+  .tools-list li {
+    color: #483d8b; }
+  .tools-list li, .tools-list p {
+    font-size: 4rem; }
+  .tools-list p {
+    background-color: #ff44bd;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 0 -1rem;
+    padding: 0 1rem;
+    width: 100%; }

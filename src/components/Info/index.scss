@@ -1,0 +1,24 @@
+@import '../../app.scss';
+
+.tools-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    color: $darkSlateBlue;
+  }
+
+  li, p {
+    font-size: 4rem;
+  }
+
+  p {
+    background-color: $pink;
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 0 -1rem;
+    padding: 0 1rem;
+    width: 100%;
+  }
+}
