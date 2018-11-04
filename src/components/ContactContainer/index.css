@@ -36,10 +36,22 @@ h1 {
       width: 20rem;
       position: absolute;
       left: -5000px; } }
+  .contact-container__inner {
+    display: flex;
+    width: 100%; }
   .contact-container__list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
     line-height: 25px;
     list-style: none;
-    padding: 0 2rem; }
+    padding: 0 2rem;
+    width: 100%; }
+    @media (min-width: 62em) {
+      .contact-container__list {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: normal; } }
     .contact-container__list li {
       padding-bottom: 1rem; }
     .contact-container__list a {
