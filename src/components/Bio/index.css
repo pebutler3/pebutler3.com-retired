@@ -1,7 +1,19 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  border-top: 0.5rem solid #ff44bd;
+  color: #483d8b;
+  font-size: 1.4rem; }
+
+h1 {
+  font-size: 2.4rem; }
+
 .info-box--bio {
   position: relative; }
-  .info-box--bio h2, .info-box--bio p {
-    width: 50%; }
+  @media (min-width: 75em) {
+    .info-box--bio h2, .info-box--bio p {
+      width: 50%; } }
 
 section span {
   font-weight: bold; }
@@ -14,10 +26,15 @@ section span {
     height: 2rem;
     padding-right: 5px; }
 
-.avatar__wrapper .avatar {
-  border-radius: 100%;
-  height: 15rem;
-  padding: 2rem 0;
-  position: absolute;
-  right: 2rem;
-  top: 4rem; }
+.avatar {
+  display: none; }
+  @media (min-width: 62em) {
+    .avatar {
+      display: block; } }
+  .avatar__wrapper .avatar {
+    border-radius: 100%;
+    height: 15rem;
+    padding: 2rem 0;
+    position: absolute;
+    right: 2rem;
+    top: 4rem; }

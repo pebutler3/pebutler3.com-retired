@@ -1,8 +1,13 @@
+@import '../../app.scss';
+
 .info-box--bio {
   position: relative;
 
   h2, p {
-    width: 50%;
+
+    @include breakpoint(large) {
+      width: 50%;
+    }
   }
 }
 
@@ -25,6 +30,11 @@ section {
 }
 
 .avatar {
+  display: none;
+
+  @include breakpoint(medium) {
+    display: block;
+  }
 
   &__wrapper {
 
