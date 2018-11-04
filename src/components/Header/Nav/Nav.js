@@ -4,13 +4,17 @@ import './Nav.css';
 import resume from './current.pdf';
 
 
-const toggleContactContainer = () => {
+const toggleContactContainer = (e) => {
   const contactContainer = document.querySelector('.contact-container');
+  const overlay = document.querySelector('.overlay');
+
   contactContainer.classList.toggle('contact-container--visible');
+  overlay.classList.toggle('overlay--open');
+
+  overlay.addEventListener('click', toggleContactContainer)
 }
 
-const Nav = ({...props}) => {
-
+const Nav = () => {
   return (
     <nav>
       <ul className="nav__list">
