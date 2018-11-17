@@ -5,7 +5,7 @@ import './index.css';
 const Info = ({...props}) => {
   return (
     <section className="info-box">
-      <h2>[ {props.title} ]</h2>
+      <h2>{props.title}</h2>
       <p>{props.position} @ {props.company}</p>
       <ul className="tools-list">
        <p>Currently deploying.</p>

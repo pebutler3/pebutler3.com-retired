@@ -9,7 +9,7 @@ const publicReposUrl = 'https://github.com/pebutler3?tab=repositories';
 const Bio = ({...props}) => {
   return (
     <section className="info-box info-box--bio">
-      <h2>[{props.title}]</h2>
+      <h2>{props.title}</h2>
       <p>I am a self-taught front-end developer from Ohio.</p>
       <p>Father of 2 girls with a hot lady to tie it all together.</p>
       <div className="leukemia-section">

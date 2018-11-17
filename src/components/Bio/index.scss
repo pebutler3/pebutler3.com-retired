@@ -3,7 +3,7 @@
 .info-box--bio {
   position: relative;
 
-  h2, p {
+  p {
 
     @include breakpoint(large) {
       width: 50%;

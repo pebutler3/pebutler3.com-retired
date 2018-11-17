@@ -9,10 +9,16 @@ body {
 h1 {
   font-size: 2.4rem; }
 
+h2 {
+  background-color: #483d8b;
+  color: #fff;
+  display: inline-block;
+  padding: .25rem 1rem; }
+
 .info-box--bio {
   position: relative; }
   @media (min-width: 75em) {
-    .info-box--bio h2, .info-box--bio p {
+    .info-box--bio p {
       width: 50%; } }
 
 section span {
