@@ -27,7 +27,7 @@ h1 {
   @media (min-width: 62em) {
     .info-box {
       border: 0.1rem solid #000;
-      box-shadow: 1rem 1rem 0rem #ff44bd;
+      box-shadow: 1rem 1rem 0rem #f3f3f3;
       margin: 2rem 2rem 2rem 0;
       padding: 2rem; }
       .info-box:last-child {
