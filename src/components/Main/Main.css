@@ -1,9 +1,0 @@
-main {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 120rem; }
-  main .family {
-    height: 20rem; }
-  main .bio-box {
-    border-top: 1px dashed; }
